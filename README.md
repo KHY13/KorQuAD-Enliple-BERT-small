@@ -3,7 +3,7 @@ Enliple에서 공개한 BERT-Small 모델을 KorQuAD에 적용한 코드입니�
 Dev 데이터 기준 Single모델(EM 82.89%, F1=91.59%), Ensemble모델(EM=83.65%, 92.18%)의 결과를 얻었습니다.
 Ensemble의 경우 간단하게 seed와 배치 사이즈만 변경하여 학습한 7개의 모델을 Max voting을 통해 예측을 하였습니다.
 
-## Colab에서 모델 학습하기
+## Colab에서 모델 학습 및 평가하기
 
 ### 1. Drive 마운트
 ```
